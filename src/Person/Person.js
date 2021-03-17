@@ -10,6 +10,7 @@ export const Person_Props = (any_name) => {
     return (<div>
         <p> I am from {any_name.name} who is {any_name.age}</p>
         <p>{any_name.children}</p>
+        <input text="text" onChange={any_name.changed}/>
     </div>)
 }
 
